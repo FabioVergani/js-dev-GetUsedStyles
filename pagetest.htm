@@ -4,7 +4,8 @@
             background: #eee;
             color: #333;
         }
-        img {
+			body.red{ color: #000}
+	  img {
             border: 0;
         }
         a.self {
@@ -54,7 +55,7 @@
             line-height: 150%;
         }
         li.writeme {
-            padding-top: 8px;
+            padding-top: 8px
         }
         #testresults {
             display: none;
@@ -65,25 +66,41 @@
             height: 450px;
             font-size: 90%;
             margin-bottom: 6px;
-            background: white;
+            background: white
         }
         p {
             margin-left: 40px;
-            margin-right: 40px;
+            margin-right: 40px
         }
         a {
             white-space: nowrap;
-            color: #36d;
+            color: #36d
         }
         .contributor-sep {
             border-top: 1px solid #ccc;
-            padding-top: 8px;
+            padding-top: 8px
         }
     </style>
 <script>
-//
-console.clear();
-//
+//#
+console.clear('GrabUsedStyle');
+
+//#
+function isBlank(s){return s===''||/^\s*$/g.test(s)};
+
+//#
+Beautify={
+ Selector:function(s){
+	s=s.replace(/,\s*/g,',\n');
+	return s;
+ },
+ Rule:function(s){
+	s=s.replace(/;\s*/g,';\n\t').replace(/,\s*/g,',')
+	return s;
+ }
+};
+
+//#
 function StylesIn(d){
 	var u=[],s=d.styleSheets;
 	for(var r,o,i=0,l=s.length;i<l;i++){
@@ -91,29 +108,23 @@ function StylesIn(d){
 		r=o.rules||o.cssRules;
 		for(var e,t,j=0,n=r.length;j<n;j++){
 			e=r[j];
-			t=e.selectorText;
-			if(t){
-				t=/^[^:]+/.exec(t);
-				if(t){
-					t=t[0].trim();
-					//console.log('aa',t,'\n',d.querySelector(t));
-					if(t===''||d.querySelector(t)){
-						u.push(e);
-					}
-				}
-			}
+			if(!isBlank(e.style.cssText)){
+				t=e.selectorText;
+				if(t){t=/^[^:]+/.exec(t);if(t){t=t[0].trim();if(/^\*/.test(t)||d.querySelector(t)){u.push(e)}}}
+			};
 		}
 	};
-	return u.map(function(x){return [x.selectorText,'{', x.style.cssText,'}'].join('')}).join('\n');
+	return u.map(function(x){
+		var a=Beautify.Selector,b=Beautify.Rule;
+		return [a(x.selectorText),'{\n\t',b(x.style.cssText),'\r}'].join('').replace(/;(\n|\s)*\}/g,'\n}\n\n');
+	}).join('\n');
 };
-//
-//
+//#
 (function(w,f){
-	var l='load', d=w.document, i='at'+l, init=function(){w.removeEventListener(l,i,0);f(w,d)};
-	w.addEventListener(l,init,0);
+ var l='load',d=w.document,i='at'+l,init=function(){w.removeEventListener(l,i,0);f(w,d)};
+ w.addEventListener(l,init,0);
 })(this,function(w,d){
- var used=StylesIn(d);
- console.log('Styles',used);
+ console.log('used',StylesIn(d));
 });
 
 
@@ -132,13 +143,28 @@ function StylesIn(d){
  document.getElementsByTagName("head")[0].appendChild(fileref);
 
 */
+/*
 
+(function(o){
+ var f=function(p){o[p]=function(s){console.timeStamp(s+':'+p)}};
+ f('start');
+ f('end');
+})(console.timeStamp);
+//
+
+
+(function(o,p){
+ if(!o[p]){o[p]=function(s){return}};
+})(String.prototype,'sss');
+
+
+*/
 
 
 </script>
 </head>
-<body>
-<!--  
+<body class="red">
+<!--
   //W3C
 -->
 <div id="about">
