@@ -1,0 +1,190 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+::selection {
+	background: #ffb7b7;
+}
+        body {
+            background:  rgb(25%,75%,100%);
+            color: #333; /*dddd*/
+        }
+			body.red{ color: #000}
+	  img:hover {
+            border: 0;
+        }
+        a.self {
+            font-weight: bold;
+            text-decoration: none;
+            color: #444;
+            border-bottom: 1px solid #aaa
+        }
+        p:hover, select, label, .blurb, a.turn-off-codemirror {
+            font:13px/1.231 arial, sans-serif;
+            *font-size:small;
+        }
+        a.turn-off-codemirror {
+            margin-left: 25px;
+        }
+        button.submit {
+            width: 100%;
+            padding: 10px 0;
+            cursor: pointer;
+            margin: 0;
+        }
+        button.submit em {
+            font-size: 11px;
+            font-style: normal;
+            color: #999;
+        }
+        label {
+            cursor: pointer;
+        }
+        select {
+            width: 220px;
+        }
+        table#options {
+            float: right;
+        }
+        table#options td {
+            vertical-align: top;
+            padding-left: 10px;
+        }
+        #about {
+            float: left;
+        }
+        #about p {
+            margin: 0 6px 6px 0;
+        }
+        li {
+            line-height: 150%;
+        }
+        li.writeme {
+            padding-top: 8px
+        }
+        #testresults {
+            display: none;
+            font-family: monaco, "lucida console", "courier new", monospace;
+        }
+        .CodeMirror {
+            border: 1px solid #ccc;
+            height: 450px;
+            font-size: 90%;
+            margin-bottom: 6px;
+            background: white
+        }
+        p {
+            margin-left: 40px;
+            margin-right: 40px
+        }
+        a {
+            white-space: nowrap;
+            color: #36d
+        }
+        .contributor-sep {
+            border-top: 1px solid #ccc;
+            padding-top: 8px
+        }
+    </style>
+<!-- GrabUsedStyle: -->
+<script>
+//
+console.clear();
+//#
+function isBlank(s){return s===''||/^\s*$/g.test(s)};
+//
+function toHex(x,r,g,b){var f=function(x){return ('0'+Number(x).toString(16)).substr(-2)};return ['#',f(r),f(g),f(b)].join('')};//todo percent
+
+//#
+Beautify={
+ Selector:function(s){
+	s=s.replace(/,\s*/g,',\n');
+	return s;
+ },
+ Rule:function(s){
+	return s.replace(/;\s*/g,';\n\t').replace(/,\s*/g,',').replace(/\brgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)/g,toHex);
+ }
+};
+
+//#
+function StylesIn(d){
+	var u=[],s=d.styleSheets;
+	for(var r,o,i=0,l=s.length;i<l;i++){
+		o=s[i];
+		r=o.rules||o.cssRules;
+		for(var e,t,j=0,n=r.length;j<n;j++){
+			e=r[j];
+			if(!isBlank(e.style.cssText)){
+				t=e.selectorText;
+				if(t){
+                if(t=/^\s*(:|\*)/.test(t)||d.querySelector(t.replace(/(:|::)\s*[^,#\n{}\.]+/g,''))){
+                    u.push(e);
+                }
+            }
+			};
+		}
+	};
+	return u.map(function(x){
+		var a=Beautify.Selector,b=Beautify.Rule;
+		return [a(x.selectorText),'{\n\t',b(x.style.cssText),'\r}'].join('').replace(/;(\n|\s)*\}/g,'\n}\n\n');
+	}).join('\n');
+};
+//#
+(function(w,f){
+ var l='load',d=w.document,i='at'+l,init=function(){w.removeEventListener(l,i,0);f(w,d)};
+ w.addEventListener(l,init,0);
+})(this,function(w,d){
+ console.group('UsedStyles:');
+ console.log(StylesIn(d));
+ console.groupEnd();
+});
+
+
+
+//
+//console.log();
+
+
+
+
+/*
+ var fileref=document.createElement("link");
+ fileref.setAttribute("rel", "stylesheet");
+ fileref.setAttribute("type", "text/css");
+ fileref.setAttribute("href","http://www.javascriptkit.com/javatutors/mystyle.css");
+ document.getElementsByTagName("head")[0].appendChild(fileref);
+
+*/
+/*
+
+(function(o){
+ var f=function(p){o[p]=function(s){console.timeStamp(s+':'+p)}};
+ f('start');
+ f('end');
+})(console.timeStamp);
+//
+
+
+(function(o,p){
+ if(!o[p]){o[p]=function(s){return}};
+})(String.prototype,'sss');
+
+
+*/
+
+
+</script>
+</head>
+<body class="red">
+<!--
+  //W3C
+-->
+<div id="about">
+        <p>
+            <a class="self" href="./">Bfgfdgdle, etc.</a>
+        </p>
+        <p>
+          dasfsdf <a href="https://github.com/etify">github</a> under MIT licence,
+            <br>sdfsdf <a href="https://nutify">node package</a> as well.
+        </p>
+    </div>
+
+</body></html>
