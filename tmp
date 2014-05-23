@@ -1,0 +1,273 @@
+(function(g,h){
+ //●Framework/Inner:
+ Object.haskeys
+ 
+ ObjRaw=function(p){
+  return Object.create(null,())
+  };
+ var zz= ObjRaw(3);
+//typeof p === 'object' &&Object.keys(p).length?p:null
+ console.log(zz)
+
+ //●BootStrapper:
+ console.info('theWindow:%o',h,'\uFFEB'+h.location);
+ var p='GetUsedStyles',s=function(w){
+  console.debug(p,'calls:',++s.calls);//trace invocation...
+  //●MyCode:
+  //..
+ },e=h[p];
+ g.ReportUsedStylesInto=s=h[p]=e instanceof s?e:(s.calls=0,s);
+})(this,window);
+//᙮
+
+
+
+
+
+
+
+
+/*
+function(){};
+ s=w[p]=e instanceof s?(hosted=1,e):(s.invocations=0,s);
+ s(w,s);
+
+
+
+
+(w);
+.Calls=0;
+  console.debug(ReportUsedStylesInto.Calls);
+ReportUsedStylesInto.Calls++;
+
+
+
+ console.debug('bootstrap..');
+(function(p){
+
+})();
+
+*/
+
+
+
+
+//᙮
+ReportUsedStylesInto(this)
+//᙮
+
+//alert(p)
+
+//console.log(ReportUsedStylesInto.Calls)
+//new Date()).getTime()
+
+
+//○○●
+//᙮
+//〈
+//〉
+//‹
+//›
+
+
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://www.dvbuilder.com/lefuoricorso/preview/0001wilfyb5 -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="http://www.dvbuilder.com/lefuoricorso/preview/0001wilfyb5">--><base href=".">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+
+		<meta name="language" content="IT">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+
+		<link rel="stylesheet" href="http://www.dvbuilder.com/css/site.min.css?140515_161604">
+
+
+		<script>window.scrollRef = window.scrollTo; window.scrollTo = function(){return false;};</script><style type="text/css"></style>
+		<script src="./realcase_files/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/resources/vendors/jquery/jquery-1.11.0.min.js">\x3C/script>')</script>
+
+		<script src="./realcase_files/jquery.mobile-1.3.2.min.js"></script>
+		<script>window.$.mobile || document.write('<script src="/resources/vendors/jquery/mobile/jquery.mobile-1.3.2.min.js">\x3C/script>')</script>
+		<script src="./realcase_files/all.min.js"></script>
+
+
+			<title>realcase</title>
+
+			<script src="./GrabUsedStyle-dev.js"></script>
+
+			</head>
+	<body class="ui-mobile-viewport ui-overlay-c" style="">
+
+	<div id="block-ui" style="display: none;"></div>
+		<div data-role="page" data-title="realcase x GrabUsedStyle" class="ui-page ui-body-c style3987 ui-page-active" data-url="/lefuoricorso/preview/0001wilfyb5" tabindex="0" style="min-height: 832px;">
+			<script type="text/javascript">
+				function cssLoaded(href) {
+					var cssFound = false;
+					for (var i = 0; i < document.styleSheets.length; i++) {
+						var sheet = document.styleSheets[i];
+						if (
+							sheet['href'] == href
+						) {
+							cssFound = true;
+						}
+					};
+
+					return cssFound;
+				}
+				if (!cssLoaded("http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css")) {
+					var localCSS = document.createElement('link');
+					localCSS.setAttribute("rel", "stylesheet");
+					localCSS.setAttribute("href", '/resources/vendors/jquery/mobile/jquery.mobile-1.3.2.min.css');
+					document.getElementsByTagName("head")[0].appendChild(localCSS);
+				}
+
+				$('.ui-page').on('pagebeforeshow', initSitePage);
+				$('.ui-page').on('pageshow', showSitePageCallback);
+
+							</script>
+
+												<style>
+
+            .FG_Contents_grid.left > div {text-align:left; }
+            .FG_Contents_grid.center > div {text-align:center; }
+            .FG_Contents_grid.right > div {text-align:right; }
+            .FG_Contents_display { display:inline-block; white-space: normal; vertical-align:middle;}
+            .FG_Contents_display._1_blocks { width: 100%; }
+            .FG_Contents_display._2_blocks { width: 50%; }
+            .FG_Contents_display._3_blocks { width: 33%; }
+            .FG_Contents_display.left {text-align:left; }
+            .FG_Contents_display.center {text-align:center; }
+            .FG_Contents_display.right {text-align:right; }
+            .FG_Contents_posRelative { position: relative; float:none; }
+            .page_left { float:left; }
+            .page_right { float:right; }
+            .clear { clear:both; }
+
+            .FG_Rubrics_grid.left > div {text-align:left; }
+            .FG_Rubrics_grid.center > div {text-align:center; }
+            .FG_Rubrics_grid.right > div {text-align:right; }
+            .page_left { float:left; }
+            .page_right { float:right; }
+            .clear { clear:both; }
+        																																																																																											.terms-item { font-size: 12px; padding-left: 10px; }
+			.terms-detail { margin-left: 10px; }
+			.terms-title { text-align: center; font-size: 20px;}
+			.terms-description { text-align: left; font-size: 14px; }
+			.terms-section { font-weight: bold; }										</style>
+																<style>.style3987{font-size:0.80em}
+.style3987{background:#000000}
+.style3987{border-top:  }
+.style3987{border-left:  }
+.style3987{border-right:  }
+.style3987{border-bottom:  }
+
+.style3987 html, .style3987 body {background: #56676f;}
+.style3987 html {min-height: 100%;}
+.style3987 body {min-height: 99%;}
+.style3987 .upper-text {text-align: center;color: #358f4a;text-shadow: 0 1px 0 rgba(0,0,0,.02);}
+.style3987 .upper-text p {font-family: Helvetica,Arial,sans-serif;font-size: 13px;line-height: normal;margin: .8em 0;}
+.style3987 .upper-text p.servinabb {font-size: 10.909090995789px;line-height: 10px;margin: 0px 0px 5px;vertical-align: baseline;}
+.style3987 .upper-text p.servinabb strong {margin: 0px;padding: 0px;background-color: transparent;border: 0px;vertical-align: baseline;}
+.style3987 .link-crp {font-size: 22px;}
+.style3987 .upper-text .servicename {font-family: "Arial Black",sans-serif;margin: 0;line-height: 1em;color: #fffffd;font-weight: bold;font-size: 39px;text-shadow: 0 0 5px rgba(0,0,0,.3),1px 1px 12px rgba(0,0,0,.3),2px 2px 4px rgba(0,0,0,.2),3px 3px 16px rgba(0,0,0,.4),0 0 11px rgba(0,0,0,.4),1px 1px 0 #43b404,-1px -1px 0 #43b404,1px -1px 0 #43b404,-1px 1px 0 #43b404,0px 1px 0 #43b404,1px 0px 0 #43b404,0px -1px 0 #43b404,-1px 0px 0 #43b404;}
+.style3987 .upper-text .ui-link, .style3987 .upper-text .ui-link:visited {color: #144d8a;font-size: .9em;text-decoration: none;border-bottom: 1px solid rgba(0,0,0,.21);line-height: .8em;}
+.style3987 .upper-text .ui-link strong {font-size: 14px;}
+.style3987 img.centralcover {min-width: 280px;clear: both;display: block;margin: 0 auto;}
+.style3987 img.centralcover, .style3987 .bottonelp, .style3987 .bottonelp:hover {max-width: 305px !important;width: 100% !important;margin: 0 auto !important;min-heigth: 2em !important;}
+.style3987 img.centralcover, .style3987 div.centralcoverwrapper {z-index: -1;}
+.style3987 div.centralcoverwrapper {margin-top: 9px;}
+.style3987 .bottonelp, .style3987 .bottonelp:hover {margin-top: 10px !important;padding: 16px 26px 14px 26px !important;border: 1px solid #a30f0f !important;border: 1px solid #39531b !important;vertical-align: middle !important;border-radius: 12px !important;cursor: pointer !important;height: auto !important;line-height: 1em !important;font-family: Arial,Helvetica,sans-serif !important;letter-spacing: 2px !important;color: white !important;color: white !important;-webkit-box-shadow: rgba(0,0,0,.498039) 0px 1px 3px,rgba(255,255,255,.701961) 0px 0px 2px inset !important;box-shadow: rgba(0,0,0,.498039) 0px 1px 3px,rgba(255,255,255,.701961) 0px 0px 2px inset !important;text-shadow: rgba(0,0,0,.4) 0px -1px 0px,rgba(255,255,255,.298039) 0px 1px 0px,rgba(0,0,0,.4) 0px -1px 0px,black -1px -1px 0px,black 1px -1px 0px,black -1px 1px 0px,black 1px 1px 0px,rgba(0,0,0,.4) 0px 0px 10px !important;font-weight: bold !important;font-size: 38px !important;border-top-color: #5da110 !important;background: #5da110 !important;background: -webkit-gradient(linear,left top,left bottom,from(#90ff13),color-stop(.5,#5da110),to(#3b9225)) !important;}
+.style3987 .bottonelp {-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.style3987 div.disclaimer {text-align: justify;font-size: 9px;text-shadow: 0 1px 0 rgba(16,134,78,.04);color: #436b41;word-break: break-all;margin-top: 45px;}
+.style3987 div.disclaimer a, .style3987 div.disclaimer a:visited {color: #0e7934;text-shadow: 0 1px 0 rgba(171,229,231,.3);}
+.style3987 a.disclaimer-1 {font-size: 13px;line-height: 1.22;}
+.style3987 div.disclaimer p.uplink {text-align: center;}
+.style3987 .footer.claim {display: block;display: none;margin: 0 auto;text-align: center;font-size: 2vw;line-height: 2.4em;font-family: "Arial Black",sans-serif;color: #fff;text-shadow: 0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);}
+.style3987 a.ui-btn-hover-c:hover {max-width: 405px !important;margin: 0 auto;width: 95%;}
+.style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c, .style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c:hover {max-width: 405px !important;width: 95%;margin: 0 auto;}
+.style3987 .ui-btn-inner.ui-btn-corner-all.ui-btn-icon-right {font-size: 29px;font-weight: bold;font-family: "Arial Black",sans-serif;text-indent: 10px;color: white;text-shadow: 0 1px 0 rgba(0,0,0,.66),1px 1px 3px rgba(0,0,0,.66),-1px 2px 6px rgba(0,0,0,.8);}
+.style3987 .servabbonbutt {text-align: center;color: #0b8136;font-family: Arial,sans-serif;font-size: 12px;font-weight: bold;line-height: 16px;text-shadow: 0 1px 0 rgba(245,245,245,.12);}
+.style3987 .upper-text .ui-link, .style3987 .upper-text .ui-link:visited {color: #c1dd2b;color: #2ba343;border-bottom: 1px solid rgba(211,211,20,.35);}
+.style3987 div.disclaimer a, .style3987 div.disclaimer a:visited {color: #167a22;text-shadow: 0 1px 0 rgba(171,229,231,.3);}
+.style3987 div.disclaimer {color: #145c10;}
+.style3987 div.disclaimer p.uplink {font-size: 1.2em;}
+.style3987 .upper-text .servicename {text-shadow: 0 0 5px rgba(74,236,22,.3),1px 1px 12px rgba(84,213,23,.3),2px 2px 4px rgba(92,209,56,.2),3px 3px 16px rgba(65,233,24,.4),0 0 11px rgba(76,207,71,.4),1px 1px 0 #43b404,-1px -1px 0 #43b404,1px -1px 20px #276405,-1px 1px 0 #43b404,0px 1px 0 #43b404,1px 0px 0 #43b404,0px -1px 9px #43b404,-1px 0px 0 #43b404;}
+.style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c, .style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c:hover {border: 1px solid #23be48;}
+.style3987 a.ui-btn-hover-c:hover {color: #fff !important;border: 1px solid #bc1e04;background: #c51b1b !important;}
+@media only screen and (max-width : 568px){.style3987 .upper-tex a.link {font-size: .9em;}
+.style3987 .upper-text p.servinabb {margin-top: -10px;}
+.style3987 .upper-text .servicename {font-size: 25px;}
+.style3987 .upper-text p {font-size: 11px;line-height: 11px;}
+.style3987 .link-crp {font-size: 14px;}
+.style3987 .footer.claim {font-size: 22px;line-height: 23px;margin-bottom: 8px;text-shadow: 0 1px 1px rgba(0,0,0,.2),0 2px 6px rgba(0,0,0,.4),0 2px 4px rgba(0,0,0,.19),0 2px 2px rgba(0,0,0,.57),0px 0px 0 rgba(0,0,0,.22),1px 1px 0 rgba(0,0,0,.31),2px 2px 0 rgba(0,0,0,.36),3px 3px 2px rgba(0,0,0,.23),3px 3px 1px rgba(0,0,0,.1),0px 0px 2px rgba(0,0,0,.2);}
+.style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c, .style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c:hover {max-width: 380% !important;width: 95% !important;font-size: 18px;line-height: 20px;text-indent: 0px;border-radius: 12px;height: auto;}
+.style3987 .ui-btn-inner.ui-btn-corner-all.ui-btn-icon-right {font-size: 18px;line-height: 20px;text-indent: 12px;}
+}.style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c, .style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c:hover {border: 1px solid #bc1e04;background: #fc7e7e;background: -moz-linear-gradient(top,#fc7e7e 0%,#ed5844 48%,#ea2803 51%,#c72200 100%);background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fc7e7e),color-stop(48%,#ed5844),color-stop(51%,#ea2803),color-stop(100%,#c72200));background: -webkit-linear-gradient(top,#fc7e7e 0%,#ed5844 48%,#ea2803 51%,#c72200 100%);background: -o-linear-gradient(top,#fc7e7e 0%,#ed5844 48%,#ea2803 51%,#c72200 100%);background: -ms-linear-gradient(top,#fc7e7e 0%,#ed5844 48%,#ea2803 51%,#c72200 100%);background: linear-gradient(to bottom,#fc7e7e 0%,#ed5844 48%,#ea2803 51%,#c72200 100%);}
+.style3987 div.disclaimer {color: #7b7fac;}
+.style3987 div.disclaimer a, .style3987 div.disclaimer a:visited {color: #7f64a8;text-shadow: 0 1px 0 rgba(26,82,167,.3);}
+.style3987 .servabbonbutt {color: #9068a7;text-shadow: 0 1px 0 rgba(14,26,73,.12);}
+.style3987 .upper-text {color: #af91c7;text-shadow: 0 1px 0 rgba(0,0,0,.02);}
+.style3987 .upper-text .ui-link, .style3987 .upper-text .ui-link:visited {color: #e788ff;border-bottom: 1px solid rgba(233,78,221,.35);}
+.style3987 .upper-text .servicename {text-shadow: 0 0 5px rgba(202,22,236,.3),1px 1px 12px rgba(137,23,213,.3),2px 2px 4px rgba(185,56,209,.2),3px 3px 16px rgba(225,24,233,.4),0 0 11px rgba(174,71,207,.4),1px 1px 0 #b404b4,-1px -1px 0 #9104b4,1px -1px 20px #420564,-1px 1px 0 #8304b4,0px 1px 0 #b40491,1px 0px 0 #a604b4,0px -1px 9px #9804b4,-1px 0px 0 #6004b4;}
+.style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c, .style3987 a.ui-btn.js-button.ui-btn-corner-all.ui-shadow.ui-btn-icon-right.ui-btn-up-c:hover {border: 1px solid #693c0b;background: #f7f13d;background: -moz-linear-gradient(top,#f7f13d 3%,#f4c93a 50%,#f4bf00 52%,#e57e00 100%);background: -webkit-gradient(linear,left top,left bottom,color-stop(3%,#f7f13d),color-stop(50%,#f4c93a),color-stop(52%,#f4bf00),color-stop(100%,#e57e00));background: -webkit-linear-gradient(top,#f7f13d 3%,#f4c93a 50%,#f4bf00 52%,#e57e00 100%);background: -o-linear-gradient(top,#f7f13d 3%,#f4c93a 50%,#f4bf00 52%,#e57e00 100%);background: -ms-linear-gradient(top,#f7f13d 3%,#f4c93a 50%,#f4bf00 52%,#e57e00 100%);background: linear-gradient(to bottom,#f7f13d 3%,#f4c93a 50%,#f4bf00 52%,#e57e00 100%);}
+.style3987 a.ui-btn-hover-c:hover {color: #fff !important;border: 1px solid #b37900 !important;background: #ffc200 !important;}
+.style3987 img.centralcover, .style3987 .bottonelp, .style3987 .bottonelp:hover {max-width: 600px !important;max-height: 70%;}
+
+.style27{color:#ffffff}
+.style27 .ui-btn-up-a {color:#ffffff}
+.style27 div{color:#ffffff}
+.style27{font-size:1.00em}
+.style27{border-top:  }
+.style27{border-left:  }
+.style27{border-right:  }
+.style27{border-bottom:  }
+
+.style27 h1 {display: inline;margin-bottom: 10px;}
+.style27 h2 {display: inline;margin-bottom: 10px;}
+.style27 h3 {display: inline;margin-bottom: 10px;}
+.style27 h4 {display: inline;margin-bottom: 10px;}
+.style27 h5 {display: inline;margin-bottom: 10px;}
+.style27 h6 {display: inline;margin-bottom: 10px;}
+.style27 a {text-decoration: none;}
+
+</style>
+			<style>
+				div.ui-content{padding:15px !important;}
+				div.ui-content{padding:0;}
+				.ui-content .ui-listview {margin:-15px !important;}
+				.ui-content .ui-listview {margin:0;}
+				.ui-content .ui-listview-inset{margin:0 !important;}
+			</style>
+			<div class="ui-content" data-role="content" role="main"><div><div class="upper-text">
+ <p class="servinabb">
+ LEFUORICORSO IN ABBONAMENTO&nbsp;<strong>6,06 E/sett</strong>.
+ </p>
+
+ <p>
+ Cliccando su 'Clicca e Acquista' dichiari di essere maggiorenne, di accettare i&nbsp;<a href="http://igame.funnymobile.mobi/terms" target="_blank" rel="external" class="ui-link">Termini <small>e</small>&nbsp;Condizioni </a>,<br>di aver letto le <a href="http://zhelp.it/?page_id=10" target="_blank" rel="external" class="ui-link">Info Privacy</a>&nbsp;e i <a href="http://zhelp.it/?page_id=10" target="_blank" rel="external" class="ui-link">Terminali Compatibili</a>
+ </p>
+ <p>
+ <a class="link-crp ui-link" href="javascript:ReportUsedStylesInto(this)"><strong>ReportUsedStylesInto(this)</strong></a>
+ </p><h1 class="servicename">VIDEO NO LIMITS!! </h1></div></div><div></div><div><div class="centralcoverwrapper" style="text-align:center;"><img class="centralcover selected" data-maxquality="94" src="" alt="" data-quality="9" style="font-size:13px;line-height:1.22;width:100%;"><br></div></div><div><strong class="footer claim">!</strong></div><div><div class="servabbonbutt">SERVIZIO IN ABBONAMENTO: 6,06E/Sett.</div></div><a data-icon="arrow-r" data-textalign="center" data-corners="true" data-shadow="true" data-iconpos="right" data-rwd-button="true" data-ajax="false" class="style27 ui-btn js-button ui-btn-corner-all ui-shadow ui-btn-up-c ui-btn-icon-right" href="http://www.dvbuilder.com/lefuoricorso/preview" data-iconshadow="true" data-wrapperels="span" data-theme="c"><span class="ui-btn-inner ui-btn-corner-all  ui-btn-icon-right">
+                        <span class="ui-btn-text">Clicca e Acquista</span><span class="ui-icon ui-icon-arrow-r ui-icon-shadow"></span></span></a><div><div class="disclaimer">
+		<div>
+		<p class="uplink">
+			<a href="http://www.zengfree.it/~download/regolamento/scarica/yuppycoupon.pdf" class="ui-link">Regolamento</a>
+			<a href="http://zhelp.it/?page_id=10" class="ui-link">Info &amp; costi</a>
+		</p>
+		<p>
+ <span><strong>SERVIZIO IN ABBONAMENTO</strong>, </span><strong>RISERVATO AI MAGGIORENNI </strong>offerto da <strong>DigitAPP. LeFuoriCorso</strong> Ã¨ un servizio in abbonamento che consente la visualizzazione di contenuti sexy (video/immagini). Il servizio Ã¨ basato sul modello "all you can eat" senza limitazioni di crediti. <strong>COSTI ABBONAMENTO:6,06â‚¬/7giorni (max 24,40â‚¬/mese)</strong>. Il costo del servizio sara'
+ addebitato all'Utente con cadenza settimanale mediante decurtazione del credito telefonico sull'utenza telefonica per la quale Ã¨ stata richiesta l'attivazione in abbonamento del servizio. Nel
+ corso della durata del servizio l'Utente ricevera' periodicamente degli SMS che lo informeranno dell'esistenza dell'abbonamento. <strong>DISATTIVAZIONE: </strong>L'utente potrÃ 
+ disattivare<strong> </strong>il servizio dalla pagina "<strong>Gestione Profilo</strong>" di questo sito oppure chiamando il numero di assistenza clienti: <strong>0645210078</strong> (dalle
+ 9:00 alle 21:00) o tramite il sito <strong>dhelp.it</strong>. <strong>COMPATIBILITA': </strong>L'utente e' tenuto a verificare che il proprio cellulare abbia un software compatibile: <a href="http://dhelp.it/?page_id=10" class="ui-link">Lista terminali compatibili</a>. <span><strong>Costo di accesso al Wap</strong>: fare riferimento al proprio operatore
+ telefonico.</span><strong>TERMINI E CONDIZIONI: </strong>L'abbonamento comprende la fruizione di tutti i contenuti presenti sul Mobile-Site. Il corrispettivo e' dovuto anche qualora, una volta
+ acquistato il diritto ad usufruire dei Contenuti, l'Utente non intenda esercitarlo, ovvero lo eserciti solo in parte. L'Utente non potra', quindi, richiedere la restituzione del corrispettivo,
+ in tutto o in parte, se non intendera', per qualsiasi ragione, utilizzare il servizio attivato e/o fruire dei contenuti messi a sua disposizione. Per maggiori dettagli: <strong><a href="http://zhelp.it/?page_id=218" class="ui-link">T&amp;C; </a><a href="http://dhelp.it/?page_id=225" class="ui-link">PRIVACY</a> </strong>e<strong> <a href="http://dhelp.it/?page_id=230" class="ui-link disclaimer-2">TUTELA MINORI</a></strong>. L'esercizio di questi diritti potrÃ  avvenire scrivendo al seguente indirizzo: <a href="mailto:supporto@digitapp.it" class="ui-link">supporto@digitapp.it</a>. Per maggiori informazioni su <strong>Disattivazione Servizi</strong>; <strong>Contatti</strong> e <strong>FAQ </strong>fare riferimento al sito <a href="http://dhelp.it/" class="ui-link">dhelp.it</a>
+		</p></div></div></div></div>		</div>
+
+	<div id="toTop"><div id="toTopImage" onclick="window.scrollTo(0,0); return false;"></div></div>
+
+    <!-- MONITORING_WEB -->
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon ui-icon-loading"></span><h1>loading</h1></div></body></html>
